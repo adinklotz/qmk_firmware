@@ -7,6 +7,15 @@
             "label": "qmk compile",
             "type": "shell",
             "command": "qmk compile",
+            "problemMatcher": "$gcc",
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": true
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
